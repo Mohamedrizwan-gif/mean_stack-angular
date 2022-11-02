@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Post } from './components/post/post.model';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,4 @@ import { Post } from './components/post/post.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public storedPost: Post[] =  [];
 }
